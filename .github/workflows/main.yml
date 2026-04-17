@@ -38,11 +38,11 @@ jobs:
         shell: pwsh
         run: |
           if (-not $env:SECRET_SHAHZAIB) {
-            Write-Error "❌ Missing GitHub Secret: SECRET_SHAHZAIB"
+            Write-Error "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"
             exit 1
           }
           if (-not $env:NGROK_SHAHZAIB) {
-            Write-Error "❌ Missing Ngrok Auth Token: NGROK_SHAHZAIB"
+            Write-Error "3CUjrNRF56KvUXkJeu9W1ULPSwP_615pvDTCCJxzJMibhhE1Z"
             exit 1
           }
           Write-Host "✅ All required secrets validated successfully"
